@@ -1,0 +1,177 @@
+[
+  {
+    "call_id": "C001",
+    "lead_id": "L057",
+    "transcript": "Agent: Hi, we saw your request online.\nClient: Yeah, I need something cheap.\nAgent: Understood. I\u2019ll share listings within your range.\nClient: Okay.\n",
+    "duration_seconds": 134,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C002",
+    "lead_id": "L120",
+    "transcript": "Agent: Hello, can I help with your shortlisting?\nClient: I want a ready-to-move Plot in Delhi.\nAgent: I have 3 options. Are you free for a call today?\nClient: Yes, after 6 PM.\n",
+    "duration_seconds": 122,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C003",
+    "lead_id": "L042",
+    "transcript": "Agent: Hello! You had asked about investment properties.\nClient: Yes, I need rental yield details.\nAgent: This 2BHK has strong ROI and steady occupancy.\nClient: Sounds good, send the numbers.\n",
+    "duration_seconds": 312,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C004",
+    "lead_id": "L094",
+    "transcript": "Agent: Good evening, calling about the 1BHK listing.\nClient: I'm in a hurry, can you be quick?\nAgent: Of course. It\u2019s near Noida metro and available immediately.\nClient: Send me the brochure.\n",
+    "duration_seconds": 886,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C005",
+    "lead_id": "L036",
+    "transcript": "Agent: This is a quick follow-up on your inquiry.\nClient: I\u2019m comparing with another builder.\nAgent: We can match amenities and offer better payment terms.\nClient: If the price fits \u20b986L, I\u2019m interested.\n",
+    "duration_seconds": 114,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C006",
+    "lead_id": "L127",
+    "transcript": "Agent: Hello, I can arrange a site visit for the Plot.\nClient: I'm out of town. Any virtual tour?\nAgent: Yes, I can share a video walkthrough.\nClient: Please send it today.\n",
+    "duration_seconds": 215,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C007",
+    "lead_id": "L097",
+    "transcript": "Agent: Hi, this is Riya from ABC Realty.\nClient: Yes, I'm interested.\nAgent: You asked about a Plot in Noida. Can we schedule a visit?\nClient: Saturday works.\nAgent: Great, I\u2019ll block a slot and share details.\n",
+    "duration_seconds": 476,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C008",
+    "lead_id": "L121",
+    "transcript": "Agent: Hello, following up on your inquiry.\nClient: I'm just browsing, not sure yet.\nAgent: No worries. Would you like options within a budget?\nClient: Maybe around \u20b9144L.\nAgent: I\u2019ll send curated options.\n",
+    "duration_seconds": 156,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C009",
+    "lead_id": "L136",
+    "transcript": "Agent: Hi, just checking if you\u2019re still looking.\nClient: Not now, call next month.\nAgent: Noted. I\u2019ll follow up then.\n",
+    "duration_seconds": 214,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C010",
+    "lead_id": "L059",
+    "transcript": "Agent: Hello! You had asked about investment properties.\nClient: Yes, I need rental yield details.\nAgent: This 1BHK has strong ROI and steady occupancy.\nClient: Sounds good, send the numbers.\n",
+    "duration_seconds": 556,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C011",
+    "lead_id": "L052",
+    "transcript": "Agent: This is a quick follow-up on your inquiry.\nClient: I\u2019m comparing with another builder.\nAgent: We can match amenities and offer better payment terms.\nClient: If the price fits \u20b935L, I\u2019m interested.\n",
+    "duration_seconds": 310,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C012",
+    "lead_id": "L095",
+    "transcript": "Agent: This is a quick follow-up on your inquiry.\nClient: I\u2019m comparing with another builder.\nAgent: We can match amenities and offer better payment terms.\nClient: If the price fits \u20b9126L, I\u2019m interested.\n",
+    "duration_seconds": 590,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C013",
+    "lead_id": "L114",
+    "transcript": "Agent: This is a quick follow-up on your inquiry.\nClient: I\u2019m comparing with another builder.\nAgent: We can match amenities and offer better payment terms.\nClient: If the price fits \u20b956L, I\u2019m interested.\n",
+    "duration_seconds": 491,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C014",
+    "lead_id": "L049",
+    "transcript": "Agent: This is a quick follow-up on your inquiry.\nClient: I\u2019m comparing with another builder.\nAgent: We can match amenities and offer better payment terms.\nClient: If the price fits \u20b988L, I\u2019m interested.\n",
+    "duration_seconds": 784,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C015",
+    "lead_id": "L025",
+    "transcript": "Agent: Hello, I can arrange a site visit for the 3BHK.\nClient: I'm out of town. Any virtual tour?\nAgent: Yes, I can share a video walkthrough.\nClient: Please send it today.\n",
+    "duration_seconds": 654,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C016",
+    "lead_id": "L025",
+    "transcript": "Agent: Hi, just checking if you\u2019re still looking.\nClient: Not now, call next month.\nAgent: Noted. I\u2019ll follow up then.\n",
+    "duration_seconds": 535,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C017",
+    "lead_id": "L048",
+    "transcript": "Agent: Hi, just checking if you\u2019re still looking.\nClient: Not now, call next month.\nAgent: Noted. I\u2019ll follow up then.\n",
+    "duration_seconds": 304,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C018",
+    "lead_id": "L095",
+    "transcript": "Agent: Hi, we saw your request online.\nClient: Yeah, I need something cheap.\nAgent: Understood. I\u2019ll share listings within your range.\nClient: Okay.\n",
+    "duration_seconds": 773,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C019",
+    "lead_id": "L074",
+    "transcript": "Agent: Good evening, calling about the Commercial listing.\nClient: I'm in a hurry, can you be quick?\nAgent: Of course. It\u2019s near Noida metro and available immediately.\nClient: Send me the brochure.\n",
+    "duration_seconds": 83,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C020",
+    "lead_id": "L149",
+    "transcript": "Agent: Hi, this is Riya from ABC Realty.\nClient: Yes, I'm interested.\nAgent: You asked about a Plot in Pune. Can we schedule a visit?\nClient: Saturday works.\nAgent: Great, I\u2019ll block a slot and share details.\n",
+    "duration_seconds": 817,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C021",
+    "lead_id": "L118",
+    "transcript": "Agent: Hi, this is Riya from ABC Realty.\nClient: Yes, I'm interested.\nAgent: You asked about a 1BHK in Gurgaon. Can we schedule a visit?\nClient: Saturday works.\nAgent: Great, I\u2019ll block a slot and share details.\n",
+    "duration_seconds": 85,
+    "was_deal_closed": false
+  },
+  {
+    "call_id": "C022",
+    "lead_id": "L054",
+    "transcript": "Agent: Hi, this is ABC Realty.\nClient: Please stop calling.\nAgent: Sorry for the disturbance. I\u2019ll update your preferences.\n",
+    "duration_seconds": 323,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C023",
+    "lead_id": "L046",
+    "transcript": "Agent: Hi, just checking if you\u2019re still looking.\nClient: Not now, call next month.\nAgent: Noted. I\u2019ll follow up then.\n",
+    "duration_seconds": 396,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C024",
+    "lead_id": "L076",
+    "transcript": "Agent: Hello, following up on your inquiry.\nClient: I'm just browsing, not sure yet.\nAgent: No worries. Would you like options within a budget?\nClient: Maybe around \u20b975L.\nAgent: I\u2019ll send curated options.\n",
+    "duration_seconds": 647,
+    "was_deal_closed": true
+  },
+  {
+    "call_id": "C025",
+    "lead_id": "L105",
+    "transcript": "Agent: Hi, just checking if you\u2019re still looking.\nClient: Not now, call next month.\nAgent: Noted. I\u2019ll follow up then.\n",
+    "duration_seconds": 310,
+    "was_deal_closed": true
+  }
+]

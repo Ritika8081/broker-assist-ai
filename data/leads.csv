@@ -1,0 +1,151 @@
+lead_id,source,budget,city,property_type,last_activity_minutes_ago,past_interactions,notes,status
+L001,portal,5204224,Gurgaon,3BHK,3005,1,Investor looking for rental yield,follow_up
+L002,website,5102714,Noida,Plot,701,0,"Urgent requirement, family shifting soon",new
+L003,referral,6577289,Mumbai,2BHK,4295,5,"Talked once, no response after that",follow_up
+L004,referral,5158719,Mumbai,3BHK,1429,6,"Just checking prices, will call later",contacted
+L005,walk-in,4379498,Mumbai,1BHK,4586,7,"Just checking prices, will call later",follow_up
+L006,website,10645212,Delhi,2BHK,1964,0,"NRI buyer, prefers email communication",contacted
+L007,website,13355829,Noida,Plot,3604,0,"NRI buyer, prefers email communication",follow_up
+L008,walk-in,14324452,Pune,2BHK,4517,6,"Just checking prices, will call later",contacted
+L009,referral,11860202,Delhi,3BHK,3397,8,"Talked once, no response after that",follow_up
+L010,website,13006655,Noida,Plot,4120,0,"Talked once, no response after that",contacted
+L011,referral,10544849,Noida,2BHK,1777,8,"Just checking prices, will call later",follow_up
+L012,referral,11023721,Delhi,1BHK,480,7,Investor looking for rental yield,new
+L013,referral,11669598,Pune,2BHK,1874,1,"Talked once, no response after that",new
+L014,website,11094095,Delhi,1BHK,1918,7,"Client wants 2bhk near metro, loan pre-approved",new
+L015,walk-in,6363701,Pune,2BHK,1938,7,Investor looking for rental yield,contacted
+L016,referral,9433843,Delhi,Commercial,2804,5,"Just checking prices, will call later",new
+L017,walk-in,6409673,Gurgaon,3BHK,1906,0,Investor looking for rental yield,contacted
+L018,walk-in,13331840,Delhi,3BHK,453,7,"Just checking prices, will call later",contacted
+L019,website,9372226,Gurgaon,Commercial,541,2,"Talked once, no response after that",new
+L020,website,14095704,Pune,1BHK,2415,8,"Just checking prices, will call later",follow_up
+L021,walk-in,7531670,Pune,Commercial,4975,8,"Client wants 2bhk near metro, loan pre-approved",contacted
+L022,portal,6828016,Delhi,1BHK,1554,5,"Budget flexible, looking next 2 months",new
+L023,walk-in,6811478,Delhi,Commercial,151,3,"Budget flexible, looking next 2 months",follow_up
+L024,portal,4301139,Delhi,2BHK,4136,6,"Talked once, no response after that",contacted
+L025,walk-in,12385343,Noida,Plot,644,1,"Urgent requirement, family shifting soon",follow_up
+L026,website,8214999,Delhi,Commercial,4030,8,"Budget flexible, looking next 2 months",follow_up
+L027,portal,5301472,Delhi,2BHK,858,4,Needs possession before year end,contacted
+L028,referral,12428277,Pune,3BHK,4585,8,"Budget flexible, looking next 2 months",new
+L029,website,11552522,Bangalore,Commercial,622,6,"Client wants 2bhk near metro, loan pre-approved",new
+L030,portal,9800493,Noida,1BHK,101,2,"Budget flexible, looking next 2 months",new
+L031,walk-in,5126577,Pune,2BHK,2959,5,"Just checking prices, will call later",contacted
+L032,website,12266295,Bangalore,1BHK,4126,2,"Client wants 2bhk near metro, loan pre-approved",new
+L033,portal,3374343,Delhi,3BHK,2885,8,"NRI buyer, prefers email communication",new
+L034,website,6788607,Gurgaon,3BHK,2815,8,Investor looking for rental yield,contacted
+L035,walk-in,7538084,Pune,Plot,3162,1,"NRI buyer, prefers email communication",new
+L036,portal,12877517,Gurgaon,3BHK,4428,2,"Urgent requirement, family shifting soon",new
+L037,referral,6984411,Bangalore,Plot,4259,0,"Talked once, no response after that",follow_up
+L038,portal,9056678,Pune,3BHK,594,7,"Urgent requirement, family shifting soon",new
+L039,walk-in,5592967,Bangalore,3BHK,3376,5,Needs possession before year end,follow_up
+L040,website,7891850,Mumbai,Plot,4470,5,"NRI buyer, prefers email communication",new
+L041,website,3272551,Pune,3BHK,3481,2,"Budget flexible, looking next 2 months",new
+L042,website,5538191,Noida,Commercial,3450,2,"Urgent requirement, family shifting soon",new
+L043,referral,3136169,Pune,1BHK,2980,3,Needs possession before year end,contacted
+L044,walk-in,10300525,Mumbai,Plot,3578,3,"NRI buyer, prefers email communication",contacted
+L045,referral,5743699,Delhi,2BHK,1417,7,Needs possession before year end,contacted
+L046,website,11738418,Pune,Plot,3599,1,"Client wants 2bhk near metro, loan pre-approved",new
+L047,website,13860900,Gurgaon,Plot,240,5,"NRI buyer, prefers email communication",follow_up
+L048,referral,7252496,Pune,3BHK,3314,0,Needs possession before year end,follow_up
+L049,website,9465830,Bangalore,Commercial,1864,8,"Just checking prices, will call later",new
+L050,portal,11654451,Gurgaon,Plot,4296,8,"Budget flexible, looking next 2 months",new
+L051,walk-in,8982980,Pune,2BHK,4104,1,"Talked once, no response after that",contacted
+L052,website,7111731,Noida,3BHK,3820,1,Needs possession before year end,contacted
+L053,website,12263035,Mumbai,1BHK,4965,3,"NRI buyer, prefers email communication",follow_up
+L054,referral,14809073,Bangalore,2BHK,4688,8,"Client wants 2bhk near metro, loan pre-approved",contacted
+L055,portal,10359141,Noida,1BHK,4003,8,"Just checking prices, will call later",contacted
+L056,website,6743977,Pune,1BHK,3091,6,"Urgent requirement, family shifting soon",contacted
+L057,walk-in,8775279,Bangalore,3BHK,4353,5,"Urgent requirement, family shifting soon",new
+L058,portal,6194723,Pune,2BHK,3103,5,"Urgent requirement, family shifting soon",follow_up
+L059,walk-in,8845160,Gurgaon,Commercial,928,5,Needs possession before year end,new
+L060,portal,8543150,Bangalore,3BHK,2742,6,"Budget flexible, looking next 2 months",new
+L061,walk-in,10078635,Bangalore,3BHK,1236,8,"Urgent requirement, family shifting soon",contacted
+L062,referral,8626847,Noida,2BHK,324,3,"Client wants 2bhk near metro, loan pre-approved",follow_up
+L063,portal,8124348,Noida,Plot,941,4,Investor looking for rental yield,new
+L064,website,10489662,Mumbai,1BHK,771,7,"Talked once, no response after that",contacted
+L065,portal,12212784,Mumbai,Commercial,173,2,"Budget flexible, looking next 2 months",contacted
+L066,referral,4238679,Bangalore,Commercial,891,5,"Just checking prices, will call later",contacted
+L067,walk-in,7646012,Bangalore,3BHK,1643,2,"NRI buyer, prefers email communication",follow_up
+L068,referral,8067059,Gurgaon,3BHK,4260,0,"Just checking prices, will call later",contacted
+L069,referral,10399731,Bangalore,Plot,16,2,"Budget flexible, looking next 2 months",contacted
+L070,referral,4582309,Pune,3BHK,1298,6,"Budget flexible, looking next 2 months",follow_up
+L071,portal,3934372,Mumbai,Commercial,4707,2,"Talked once, no response after that",follow_up
+L072,portal,10047746,Pune,1BHK,329,4,Needs possession before year end,new
+L073,portal,5543063,Mumbai,3BHK,3643,8,"Urgent requirement, family shifting soon",follow_up
+L074,walk-in,12985998,Pune,3BHK,17,2,"Budget flexible, looking next 2 months",contacted
+L075,website,10486845,Bangalore,3BHK,4741,3,Investor looking for rental yield,follow_up
+L076,website,8302238,Noida,Plot,1085,5,"Client wants 2bhk near metro, loan pre-approved",new
+L077,portal,3889326,Pune,Commercial,89,6,"Just checking prices, will call later",new
+L078,referral,14268879,Gurgaon,1BHK,2479,8,"Urgent requirement, family shifting soon",follow_up
+L079,referral,11390122,Bangalore,Plot,1501,2,"Just checking prices, will call later",follow_up
+L080,website,13201016,Noida,1BHK,1873,8,"Talked once, no response after that",new
+L081,website,3359319,Bangalore,1BHK,3193,0,"Budget flexible, looking next 2 months",follow_up
+L082,walk-in,7396413,Gurgaon,3BHK,768,4,"Talked once, no response after that",contacted
+L083,website,3331592,Bangalore,Plot,3667,2,Investor looking for rental yield,follow_up
+L084,referral,10828473,Mumbai,3BHK,313,5,"Just checking prices, will call later",follow_up
+L085,website,11801164,Gurgaon,Plot,3242,6,"Budget flexible, looking next 2 months",contacted
+L086,website,10497889,Pune,3BHK,4662,6,"Urgent requirement, family shifting soon",new
+L087,portal,4944273,Mumbai,2BHK,84,2,"NRI buyer, prefers email communication",contacted
+L088,walk-in,11372556,Pune,Plot,3599,1,"NRI buyer, prefers email communication",contacted
+L089,portal,11578894,Noida,2BHK,2636,7,"Budget flexible, looking next 2 months",contacted
+L090,referral,12616145,Gurgaon,Commercial,4078,7,"Client wants 2bhk near metro, loan pre-approved",new
+L091,website,11889286,Gurgaon,Commercial,3506,2,"NRI buyer, prefers email communication",new
+L092,portal,11305068,Pune,Plot,1886,4,"Talked once, no response after that",follow_up
+L093,portal,13509366,Mumbai,Commercial,2214,8,"NRI buyer, prefers email communication",new
+L094,portal,12279033,Gurgaon,1BHK,110,2,"Client wants 2bhk near metro, loan pre-approved",new
+L095,website,6976904,Gurgaon,Plot,4092,4,"NRI buyer, prefers email communication",new
+L096,walk-in,7318765,Pune,2BHK,3393,3,"Talked once, no response after that",contacted
+L097,portal,10282155,Bangalore,2BHK,128,3,"NRI buyer, prefers email communication",new
+L098,website,10540454,Mumbai,2BHK,2052,6,"Talked once, no response after that",contacted
+L099,referral,9390222,Gurgaon,Commercial,1985,5,"Client wants 2bhk near metro, loan pre-approved",contacted
+L100,referral,6274629,Pune,1BHK,3524,7,"Budget flexible, looking next 2 months",contacted
+L101,website,12907839,Delhi,3BHK,155,6,"Talked once, no response after that",new
+L102,portal,7856659,Gurgaon,1BHK,590,5,"NRI buyer, prefers email communication",contacted
+L103,walk-in,7434335,Mumbai,3BHK,3250,3,"Urgent requirement, family shifting soon",follow_up
+L104,referral,8273570,Bangalore,2BHK,241,7,"Client wants 2bhk near metro, loan pre-approved",follow_up
+L105,website,4480988,Bangalore,Commercial,2129,7,Needs possession before year end,contacted
+L106,portal,8623780,Bangalore,Commercial,1983,8,"Just checking prices, will call later",follow_up
+L107,portal,14930424,Mumbai,3BHK,4733,6,"Client wants 2bhk near metro, loan pre-approved",contacted
+L108,website,13056156,Noida,2BHK,3805,5,"NRI buyer, prefers email communication",follow_up
+L109,portal,4475778,Mumbai,Commercial,1600,3,"Urgent requirement, family shifting soon",new
+L110,referral,11129404,Delhi,Plot,4537,4,"Talked once, no response after that",follow_up
+L111,portal,7510232,Noida,Commercial,3501,7,Investor looking for rental yield,follow_up
+L112,portal,14282158,Noida,Plot,19,4,"Just checking prices, will call later",follow_up
+L113,portal,13799942,Noida,1BHK,444,3,"Just checking prices, will call later",new
+L114,website,12138430,Noida,1BHK,4414,5,"Urgent requirement, family shifting soon",contacted
+L115,portal,11388765,Gurgaon,Plot,955,8,"Budget flexible, looking next 2 months",follow_up
+L116,portal,9862790,Bangalore,3BHK,1275,0,"Client wants 2bhk near metro, loan pre-approved",follow_up
+L117,walk-in,7753033,Noida,Plot,2518,6,Investor looking for rental yield,follow_up
+L118,portal,4361869,Bangalore,Commercial,4969,2,"Client wants 2bhk near metro, loan pre-approved",contacted
+L119,website,10269185,Delhi,2BHK,312,1,"Client wants 2bhk near metro, loan pre-approved",contacted
+L120,website,12069783,Gurgaon,1BHK,4421,7,Investor looking for rental yield,contacted
+L121,referral,11527195,Bangalore,Plot,1739,0,"NRI buyer, prefers email communication",follow_up
+L122,walk-in,9162967,Noida,1BHK,2682,7,"Client wants 2bhk near metro, loan pre-approved",new
+L123,website,5024564,Mumbai,Plot,2762,8,"Client wants 2bhk near metro, loan pre-approved",contacted
+L124,portal,5401350,Delhi,2BHK,2577,1,"Talked once, no response after that",contacted
+L125,referral,14181181,Delhi,1BHK,1830,3,"Talked once, no response after that",follow_up
+L126,referral,12163431,Gurgaon,Commercial,1811,4,"Budget flexible, looking next 2 months",follow_up
+L127,referral,3922027,Noida,3BHK,3226,3,"Talked once, no response after that",new
+L128,portal,3899443,Noida,1BHK,4768,8,"Talked once, no response after that",new
+L129,referral,11585965,Pune,Commercial,2722,1,"Just checking prices, will call later",contacted
+L130,website,8863387,Gurgaon,3BHK,93,5,"Talked once, no response after that",new
+L131,website,9132875,Delhi,Plot,1067,2,"Client wants 2bhk near metro, loan pre-approved",new
+L132,walk-in,10583891,Bangalore,Commercial,4784,1,Needs possession before year end,new
+L133,portal,14819323,Gurgaon,1BHK,609,8,"Budget flexible, looking next 2 months",follow_up
+L134,referral,7626337,Mumbai,2BHK,4505,7,"Budget flexible, looking next 2 months",follow_up
+L135,portal,13134135,Noida,Plot,4580,2,"Talked once, no response after that",new
+L136,walk-in,6084843,Gurgaon,Plot,4459,0,Investor looking for rental yield,contacted
+L137,walk-in,5301726,Delhi,2BHK,4584,4,Investor looking for rental yield,follow_up
+L138,referral,3142890,Bangalore,1BHK,3805,0,"Talked once, no response after that",follow_up
+L139,walk-in,8826523,Gurgaon,3BHK,835,5,Investor looking for rental yield,new
+L140,website,12841921,Pune,Commercial,2813,1,"Just checking prices, will call later",contacted
+L141,website,9462193,Mumbai,2BHK,4526,1,"NRI buyer, prefers email communication",follow_up
+L142,referral,8418258,Bangalore,Commercial,3119,0,"Urgent requirement, family shifting soon",new
+L143,website,13340593,Pune,Plot,594,4,"NRI buyer, prefers email communication",contacted
+L144,portal,3786516,Noida,1BHK,1093,2,"Just checking prices, will call later",follow_up
+L145,portal,7312234,Mumbai,Commercial,4917,8,"Urgent requirement, family shifting soon",contacted
+L146,walk-in,10575384,Noida,Plot,2819,3,"Just checking prices, will call later",follow_up
+L147,website,12261952,Pune,3BHK,2769,2,Investor looking for rental yield,contacted
+L148,walk-in,9650066,Gurgaon,3BHK,936,6,"NRI buyer, prefers email communication",follow_up
+L149,website,4694720,Mumbai,3BHK,3386,2,"Talked once, no response after that",contacted
+L150,portal,4780712,Noida,Plot,3055,5,"Just checking prices, will call later",contacted
