@@ -1,8 +1,9 @@
-# Fixit - GenAI Assignment
+# broker-assist-ai
 
 **Product:** AI-powered lead prioritization and call quality evaluation for real estate agents.
 
 This repo implements a hybrid rule+LLM system for:
+
 - **Lead Prioritization** — Rank leads as hot/warm/cold using budget, recency, engagement, status, and notes intent.
 - **Call Quality Evaluation** — Assess call transcripts for quality, rapport, need discovery, closing, and compliance.
 
@@ -11,13 +12,15 @@ This repo implements a hybrid rule+LLM system for:
 ## Quick Start (Local)
 
 ### Prerequisites
+
 - Python 3.10+
 - pip
 
 ### Setup
 
 ```bash
-cd Fixit
+git clone https://github.com/Ritika8081/broker-assist-ai.git
+cd broker-assist-ai
 python -m venv venv
 venv\Scripts\activate  # Windows
 # or: source venv/bin/activate  # macOS/Linux
@@ -41,8 +44,8 @@ Docs: **http://localhost:8000/docs**
 ### Build & Run
 
 ```bash
-docker build -t fixit-genai-assignment .
-docker run -p 8000:8000 fixit-genai-assignment
+docker build -t broker-assist-ai .
+docker run -p 8000:8000 broker-assist-ai
 ```
 
 ---
@@ -97,11 +100,13 @@ curl -X POST "http://localhost:8000/api/v1/call-eval" \
 ### LLM: Mistral (via Ollama)
 
 **Why:**
+
 - Open-source, cost-effective, privacy-preserving
 - ~1–2 sec inference, good instruction-following
 - Runs locally on port 11434
 
 **Setup:**
+
 ```bash
 # Download Ollama: https://ollama.ai
 ollama pull mistral
@@ -111,6 +116,7 @@ ollama pull mistral
 ### Scoring Logic
 
 **Lead Priority:**
+
 - Budget > 5M → +0.3
 - Recent activity (< 1000 mins) → +0.3
 - Multiple interactions (≥ 3) → +0.2
@@ -120,6 +126,7 @@ ollama pull mistral
 Buckets: hot (≥0.7), warm (0.4–0.7), cold (<0.4)
 
 **Call Quality:**
+
 - LLM analyzes transcript
 - Outputs: quality_score (0–1), labels, summary, next_actions
 - Retry logic on failure
@@ -129,13 +136,13 @@ Buckets: hot (≥0.7), warm (0.4–0.7), cold (<0.4)
 
 ## Trade-offs
 
-| Decision | Rationale |
-|----------|-----------|
-| Mistral over ChatGPT | Cost, privacy, local control |
-| Retry logic in LLM client | Graceful failure handling |
-| Fallback rule-based eval | System resilience |
-| Simple thresholds (0.7, 0.4) | Explainability & tuning ease |
-| No fine-tuning | Time constraint; base model sufficient |
+| Decision                     | Rationale                              |
+| ---------------------------- | -------------------------------------- |
+| Mistral over ChatGPT         | Cost, privacy, local control           |
+| Retry logic in LLM client    | Graceful failure handling              |
+| Fallback rule-based eval     | System resilience                      |
+| Simple thresholds (0.7, 0.4) | Explainability & tuning ease           |
+| No fine-tuning               | Time constraint; base model sufficient |
 
 ---
 
