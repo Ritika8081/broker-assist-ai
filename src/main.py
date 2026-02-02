@@ -1,25 +1,70 @@
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from src.routers.lead_priority import router as lead_router
-from src.routers.call_eval import router as call_router
+from pydantic import BaseModel
+from typing import List
+from src.services.lead_scoring import score_leads
+from src.services.call_evaluator import evaluate_call
 
+# Initialize FastAPI app
+app = FastAPI(title="Fixit - Real Estate AI", version="1.0")
 
-app = FastAPI(title="Fixit GenAI Assignment")
+# Request/Response Models
+class Lead(BaseModel):
+    lead_id: str
+    source: str
+    budget: float
+    city: str
+    property_type: str
+    last_activity_minutes_ago: int
+    past_interactions: int
+    notes: str
+    status: str
 
+class LeadPriorityRequest(BaseModel):
+    leads: List[Lead]
+    max_results: int = 10
 
-app.add_middleware(
-CORSMiddleware,
-allow_origins=["*"],
-allow_credentials=True,
-allow_methods=["*"],
-allow_headers=["*"],
-)
+class CallEvalRequest(BaseModel):
+    call_id: str
+    lead_id: str
+    transcript: str
+    duration_seconds: int
 
-
-app.include_router(lead_router, prefix="/api/v1")
-app.include_router(call_router, prefix="/api/v1")
-
-
+# Root endpoint - health check
 @app.get("/")
-def root():
-	return {"status": "ok", "service": "fixit-genai"}
+async def root():
+    return {
+        "message": "Fixit Real Estate AI System",
+        "version": "1.0",
+        "endpoints": [
+            "POST /api/v1/lead-priority",
+            "POST /api/v1/call-eval"
+        ]
+    }
+
+# Lead prioritization endpoint - returns ranked leads with scores
+@app.post("/api/v1/lead-priority")
+async def lead_priority(request: LeadPriorityRequest):
+    """Rank leads by priority score and bucket."""
+    leads_dict = [lead.dict() for lead in request.leads]
+    ranked = score_leads(leads_dict, request.max_results)
+    return {
+        'status': 'success',
+        'total_leads': len(request.leads),
+        'processed': len(ranked),
+        'leads': ranked
+    }
+
+# Call quality evaluation endpoint - analyzes transcript with Phi LLM
+@app.post("/api/v1/call-eval")
+async def call_evaluation(request: CallEvalRequest):
+    """Evaluate call quality and provide metrics."""
+    result = evaluate_call(request.dict())
+    return {
+        'status': 'success',
+        'data': result
+    }
+
+# Health check endpoint - useful for Docker/monitoring
+@app.get("/api/v1/health")
+async def health():
+    return {"status": "healthy", "model": "phi"}

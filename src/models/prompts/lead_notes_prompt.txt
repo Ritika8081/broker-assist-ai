@@ -1,7 +1,9 @@
-You are a JSON-only assistant.
-Input: free-form lead notes.
-Return exactly: {"intent_level": <0-1>, "urgency_level": <0-1>, "constraints": "short text"}
+Analyze this real estate lead note and return JSON:
 
+Note: {notes}
 
-Example:
-{"intent_level": 0.85, "urgency_level": 0.7, "constraints": "loan pre-approved"}
+Return JSON with:
+- intent_score: 0-1 (how serious is the buyer - look for urgency, commitment, readiness signals)
+- urgency_score: 0-1 (how time-sensitive is this lead - look for deadlines, immediate needs)
+
+Example: {{"intent_score": 0.8, "urgency_score": 0.6}}
