@@ -14,7 +14,9 @@ def test_call_eval_structure():
 	}
 	r = client.post("/api/v1/call-eval", json=payload)
 	assert r.status_code == 200
-	data = r.json()
+	payload = r.json()
+	assert payload.get("status") == "success"
+	data = payload.get("data", {})
 	
 	# Schema validation
 	assert "call_id" in data
@@ -51,7 +53,8 @@ def test_call_eval_good_call():
 	}
 	r = client.post("/api/v1/call-eval", json=payload)
 	assert r.status_code == 200
-	data = r.json()
+	payload = r.json()
+	data = payload.get("data", {})
 	assert data["quality_score"] >= 0.5
 
 
@@ -64,6 +67,7 @@ def test_call_eval_bad_call():
 	}
 	r = client.post("/api/v1/call-eval", json=payload)
 	assert r.status_code == 200
-	data = r.json()
+	payload = r.json()
+	data = payload.get("data", {})
 	# Should handle gracefully, may be low or high depending on LLM
 	assert isinstance(data["quality_score"], (int, float))

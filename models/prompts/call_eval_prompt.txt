@@ -1,0 +1,15 @@
+Analyze this sales call transcript and provide JSON evaluation:
+
+Transcript: {transcript}
+
+Return JSON with these fields (0-1 scale):
+- rapport_building: float (rapport and positive interaction)
+- need_discovery: float (understanding customer needs)
+- closing_attempt: float (attempt to close or schedule)
+- compliance_risk: float (pressure tactics, false claims)
+- quality_score: float (overall 0-1)
+- summary: string (1-2 sentence summary)
+- next_actions: list of 1-3 recommended actions
+
+Example:
+{"rapport_building": 0.8, "need_discovery": 0.9, "closing_attempt": 0.7, "compliance_risk": 0.1, "quality_score": 0.8, "summary": "Good call with strong discovery", "next_actions": ["Schedule follow-up", "Send property details"]}

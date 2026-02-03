@@ -1,7 +1,7 @@
 import time
 import json
 from typing import Dict, List
-from src.models.llm_client import call_llm_with_retry, extract_json_from_response, load_prompt_template
+from models.llm_client import call_llm_with_retry, extract_json_from_response, load_prompt_template
 
 # Call quality evaluation with Phi LLM
 def evaluate_call(call: Dict) -> Dict:

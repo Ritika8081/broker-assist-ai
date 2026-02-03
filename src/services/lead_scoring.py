@@ -3,7 +3,7 @@
 
 from typing import List, Dict
 import json
-from src.models.llm_client import call_llm_with_retry, extract_json_from_response, load_prompt_template
+from models.llm_client import call_llm_with_retry, extract_json_from_response, load_prompt_template
 
 def interpret_notes_with_llm(notes: str) -> Dict:
     """Use Phi LLM to interpret lead notes for intent and urgency with retry logic."""
@@ -11,7 +11,7 @@ def interpret_notes_with_llm(notes: str) -> Dict:
         return {"intent_score": 0.5, "urgency_score": 0.5}
     
     # Load prompt from template file
-    from src.models.llm_client import load_prompt_template
+    from models.llm_client import load_prompt_template
     prompt_template = load_prompt_template('lead_notes_prompt')
     if not prompt_template:
         # Fallback to hardcoded prompt if file not found

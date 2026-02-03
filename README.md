@@ -68,8 +68,8 @@ python -m uvicorn src.main:app --reload
 ## Docker
 
 ```bash
-docker build -t fixit-genai .
-docker run -p 8000:8000 fixit-genai
+docker build -t fixit-genai-assignment .
+docker run -p 8000:8000 fixit-genai-assignment
 ```
 
 ---
@@ -95,6 +95,13 @@ curl -X POST "http://localhost:8000/api/v1/lead-priority" \
     }],
     "max_results": 5
   }'
+```
+
+**httpie:**
+```bash
+http POST :8000/api/v1/lead-priority \
+  leads:='[{"lead_id":"L001","source":"portal","budget":5000000,"city":"Pune","property_type":"2BHK","last_activity_minutes_ago":15,"past_interactions":3,"notes":"Serious buyer very interested visiting properties this weekend ready to make decision","status":"new"}]' \
+  max_results:=5
 ```
 
 **Response:**
@@ -131,6 +138,15 @@ curl -X POST "http://localhost:8000/api/v1/call-eval" \
     "transcript": "Agent: Hi this is Rajesh calling. Lead: Hi yes very interested. Agent: Great! We have perfect 2BHK properties. Lead: Excellent tell me more. Agent: First property in Kalyani Nagar 2500 sqft with gym. Lead: Perfect! Can we visit this weekend? Agent: Of course Saturday 10 AM.",
     "duration_seconds": 480
   }'
+```
+
+**httpie:**
+```bash
+http POST :8000/api/v1/call-eval \
+  call_id=C001 \
+  lead_id=L001 \
+  transcript="Agent: Hi this is Rajesh calling. Lead: Hi yes very interested. Agent: Great! We have perfect 2BHK properties. Lead: Excellent tell me more. Agent: First property in Kalyani Nagar 2500 sqft with gym. Lead: Perfect! Can we visit this weekend? Agent: Of course Saturday 10 AM." \
+  duration_seconds:=480
 ```
 
 **Response:**
@@ -195,14 +211,14 @@ curl -X POST "http://localhost:8000/api/v1/call-eval" \
 ## Project Structure
 
 ```
+models/
+  llm_client.py              # LLM integration with retry logic
+  prompts/
+    call_eval_prompt.txt     # Call evaluation prompt template
+    lead_notes_prompt.txt    # Lead notes analysis prompt template
+  __init__.py
 src/
   main.py                      # FastAPI app with /api/v1/* endpoints
-  models/
-    llm_client.py              # LLM integration with retry logic
-    prompts/
-      call_eval_prompt.txt     # Call evaluation prompt template
-      lead_notes_prompt.txt    # Lead notes analysis prompt template
-    __init__.py
   services/
     lead_scoring.py            # Lead prioritization with Phi LLM
     call_evaluator.py          # Call quality analysis with Phi LLM
