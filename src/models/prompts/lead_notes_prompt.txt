@@ -1,9 +1,0 @@
-Analyze this real estate lead note and return JSON:
-
-Note: {notes}
-
-Return JSON with:
-- intent_score: 0-1 (how serious is the buyer - look for urgency, commitment, readiness signals)
-- urgency_score: 0-1 (how time-sensitive is this lead - look for deadlines, immediate needs)
-
-Example: {{"intent_score": 0.8, "urgency_score": 0.6}}
